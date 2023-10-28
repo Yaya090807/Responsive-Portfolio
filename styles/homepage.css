@@ -1,0 +1,89 @@
+:root{
+    --color-font-higlight: #F7DC2C;
+    --color-font-default: #F5EDF7;
+    --color-font-title: #3D1860;
+    --color-font-p:#440A67;
+    --font-family-default:'Poppins', sans-serif;
+    --font-family-title: 'Old Standard TT', serif;
+}
+
+body{
+    background-color: var(--color-font-default);
+}
+
+h1, h2{
+    font-family: var(--font-family-title);
+}
+
+p{
+    font-family: var(--font-family-default);
+}
+
+.presentation{
+    text-align: center;
+    background-color: var(--color-font-title);
+    padding: 100px 10px;
+}
+
+.presentation p{
+    font-size: 25px;
+    color: #c7c4e6;
+}
+
+.presentation h1{
+    font-weight: bold;
+    font-size: 100px;
+    color: var(--color-font-higlight);
+}
+
+.presentation h2{
+    font-size: 25px;
+    color: #c7c4e6;
+    font-weight: bold;
+}
+
+.show {
+    color: var(--color-font-title);
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.projects{
+    text-align: center;
+}
+
+.projects h1{
+    color: #643579;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.projects p{
+    line-height: 2;
+    text-align: justify;
+    padding: 5px 9px;
+    color: var(--color-font-p);
+}
+
+.btn-branding{
+    background-color: var(--color-font-higlight);
+    color: var(--color-font-p);
+    border: 1px solid var(--color-font-higlight);
+    padding: 10px 20px;
+    line-height: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn-branding:hover{
+    background-color: #d8bb00;
+    color: var(--color-font-p);
+    border: 1px solid var(--color-font-higlight);
+    padding: 10px 20px;
+    line-height: 20px;
+    border-radius: 7px;
+    box-shadow: 7px 6px 5px #3D1860;
+    cursor: pointer;
+    transition: all 200ms ease-in-out linear;
+}
