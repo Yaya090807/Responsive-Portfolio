@@ -15,6 +15,10 @@ h1, h2{
     font-family: var(--font-family-title);
 }
 
+h4{
+    font-size: 48px;
+}
+
 p{
     font-family: var(--font-family-default);
 }
@@ -27,6 +31,7 @@ footer .links{
     font-size: 18px;
     border-radius: 50%;
     transition: all 100ms ease-out;
+    margin-top: 25px;
 }
 
 footer .links:hover{
@@ -36,6 +41,35 @@ footer .links:hover{
     padding: 10px 14px;
     font-size: 18px;
     border-radius: 50%;
+}
+
+footer .contact-box{
+    background-color: var(--color-font-p);
+    padding: 30px 120px;
+    border-radius: 10px;
+    color: var(--color-font-default);
+}
+
+footer .contact-box p{
+    color: var(--color-font-default);
+    margin: 0;
+}
+
+footer .contact-box a{
+    font-size: 25px;
+    padding: 20px 30px;
+    transition: all 100ms ease-in;
+}
+
+footer .contact-box a:hover{
+    background-color: #d8bb00;
+    color: var(--color-font-p);
+    border: 1px solid var(--color-font-higlight);
+    font-size: 25px;
+    padding: 20px 30px;
+    margin: 16px 0px 0px;
+    box-shadow: 7px 6px 5px #3D1860;
+    cursor: pointer;
 }
 
 .navbar{
@@ -68,6 +102,34 @@ footer .links:hover{
     font-size: 25px;
     color: #c7c4e6;
     font-weight: bold;
+}
+
+.presentation-about{
+    text-align: center;
+    padding: 100px 10px;
+}
+
+.presentation-about h1{
+    font-weight: bold;
+    font-size: 55px;
+    color: var(--color-font-title);
+}
+
+.presentation-about h2{
+    font-size: 25px;
+    color: var(--color-font-p);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.presentation-about .p-aboutme{
+    font-size: 25px;
+    text-align: justify;
+    margin-top: 25px;
+}
+
+.presentation-about .container{
+    margin-bottom: 100px;
 }
 
 .btn-contacting{
