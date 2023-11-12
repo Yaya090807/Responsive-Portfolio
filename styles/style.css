@@ -31,7 +31,7 @@ footer .links{
     font-size: 18px;
     border-radius: 50%;
     transition: all 100ms ease-out;
-    margin-top: 25px;
+    
 }
 
 footer .links:hover{
@@ -130,6 +130,14 @@ footer .contact-box a:hover{
 
 .presentation-about .container{
     margin-bottom: 100px;
+}
+
+.presentation-work h1{
+    font-weight: bold;
+    margin: 0px 0px 48px;
+    padding: 20px 25px;
+    font-size: 65px;
+    color: var(--color-font-title);
 }
 
 .btn-contacting{
