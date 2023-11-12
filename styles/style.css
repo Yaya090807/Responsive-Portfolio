@@ -19,8 +19,24 @@ p{
     font-family: var(--font-family-default);
 }
 
-footer a{
-    background-color: #643579;
+footer .links{
+    margin: 0 20px;
+    background-color: var(--color-font-title);
+    color: var(--color-font-default);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 100ms ease-out;
+}
+
+footer .links:hover{
+    margin: 0 20px;
+    color: var(--color-font-title);
+    background-color: var(--color-font-higlight);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    
 }
 
 .navbar{
