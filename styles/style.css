@@ -272,3 +272,8 @@ footer .contact-links:hover{
     font-size: large;
 }
 
+@media (max-width:600px){
+    .presentation h1{
+        font-size: 60px;
+    }
+}
