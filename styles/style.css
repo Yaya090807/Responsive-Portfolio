@@ -31,7 +31,6 @@ footer .links{
     font-size: 18px;
     border-radius: 50%;
     transition: all 100ms ease-out;
-    
 }
 
 footer .links:hover{
@@ -70,6 +69,31 @@ footer .contact-box a:hover{
     margin: 16px 0px 0px;
     box-shadow: 7px 6px 5px #3D1860;
     cursor: pointer;
+}
+
+
+
+footer .contact-links{
+    margin: 0 20px;
+    background-color: var(--color-font-title);
+    color: var(--color-font-default);
+    padding: 10px 14px;
+    font-size: 12px;
+    border-radius: 50%;
+    transition: all 100ms ease-out;
+}
+
+footer .contact-links:hover{
+    margin: 0 20px;
+    color: var(--color-font-title);
+    background-color: var(--color-font-higlight);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+.footer-contact{
+    font-size: 12px;
 }
 
 .navbar{
@@ -140,6 +164,11 @@ footer .contact-box a:hover{
     color: var(--color-font-title);
 }
 
+.presentation-contact{
+    text-align: center;
+    padding: 50px 10px;
+}
+
 .btn-contacting{
     background-color: var(--color-font-default);
     color: var(--color-font-p);
@@ -206,6 +235,36 @@ footer .contact-box a:hover{
     border-radius: 7px;
     box-shadow: 7px 6px 5px #3D1860;
     cursor: pointer;
+}
+
+.btn-contacting{
+    background-color: var(--color-font-default);
+    color: var(--color-font-p);
+    border: 1px solid var(--color-font-title);
+    padding: 25px 50px;
+    line-height: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 100ms ease-in-out;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-contacting:hover{
+    background-color: #d8bb00;
+    color: var(--color-font-p);
+    border: 1px solid var(--color-font-higlight);
+    padding: 25px 60px;
+    line-height: 20px;
+    border-radius: 7px;
+    box-shadow: 7px 6px 5px #3D1860;
+    cursor: pointer;
+}
+
+.form-label{
+    color: var(--color-font-title);
+    font-family: var(--font-family-title);
+    font-size: 30.524px;
 }
 
 #active-page{
