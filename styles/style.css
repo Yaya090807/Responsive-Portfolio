@@ -272,8 +272,30 @@ footer .contact-links:hover{
     font-size: large;
 }
 
-@media (max-width:600px){
+@media (max-width:800px){
+    .presentation{
+        padding: 60px 10px;
+    }
+
     .presentation h1{
         font-size: 60px;
+    }
+
+    .presentation h2{
+        font-size: 25px;
+    }
+
+    .presentation .avatar{
+        width: 300px;
+        display:none;
+    }
+
+    .presentation .btn-contacting {
+        padding: 10px 35px;
+        font-size: 12px;
+    }
+
+    .projects img{
+        display: none;
     }
 }
